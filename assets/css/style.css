@@ -2,20 +2,54 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
     font-size: 15px;
 }
+
+
 h1{
     font-size: 200%;
     font-weight: 500%;
     background-color: #FFF58C;
-    width: 20%;
+    flex-direction: column;
 }
+
+h2{
+    left: 0;
+    font-size: 250%;
+    font-size: 300%;
+    padding: 5px;
+    margin: 100px 50px;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
 
 
 nav{
 background-color: #007CDE;
 color: #fff;
 text-align: right;
-font-size: 150%;
-font-weight: 200%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+a{
+    text-align: right;
+    font-size: 150%;
+    font-weight: 200%;
+    margin: 5px;
+    left: 10px;
 }
 
 .subtitle{
@@ -27,3 +61,93 @@ font-weight: 200%;
     background-color: #FFDB70;
 }
 
+.mainpara{
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+    border: 20px 10px;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.back1{
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    border: 5px;
+    margin: 20px 20px;
+    right: -50px;
+}
+
+.mainback{
+    width: 75vw;
+    height: 55vh;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.contact{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.maintitle {
+    position: absolute;
+    font-size: 40px;
+    background-color: #000000;
+    color: #fff;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    top: 400px;
+    left: 300px;
+  }
+
+  .sectitle{
+    font-size: 30px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    top: 850px;
+    left: 200px;
+  }
+
+  .sectitle1{
+    font-size: 30px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    top: 850px;
+    left: 1000px;
+  }
+
+  .sectitle2{
+    font-size: 30px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    top: 1200px;
+    left: 1000px;
+    z-index: 1;
+  }
+
+  .sectitle3{
+    font-size: 30px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    top: 1200px;
+    left: 200px;
+    z-index: 1;
+  }
