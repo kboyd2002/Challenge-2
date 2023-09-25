@@ -151,3 +151,21 @@ a{
     left: 200px;
     z-index: 1;
   }
+
+  .card {
+    float: left;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .card .cover-image {
+    position: relative;
+    z-index: -1;
+    filter: blur(8px);
+    transition: filter 0.25s linear;
+  }
+  
+  .card:hover .cover-image{
+    filter: blur(0);
+  }
