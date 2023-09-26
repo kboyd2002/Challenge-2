@@ -1,5 +1,5 @@
 --------------------------------
-# Challenge-1
+# Professional Portfolio
 
 ## Description
 A Personal Portfolio of my (soon to be) projects, and links to my github and my linkedin. as well as a section of images that are blurred and unblur when you hover over them.
