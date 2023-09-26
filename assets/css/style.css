@@ -3,6 +3,9 @@
     font-size: 15px;
 }
 
+body{
+  background-color: #565656;
+}
 
 h1{
     font-size: 200%;
@@ -21,6 +24,7 @@ h2{
     border-bottom: 0;
     border-left: 0;
     border-top: 0;
+    border-right: 1px;
 }
 
 
@@ -32,12 +36,13 @@ text-align: right;
 }
 
 section{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
     text-align: center;
 }
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -64,10 +69,11 @@ a{
 .mainpara{
     position: relative;
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
     padding: 20px;
     border: 20px 10px;
     flex-wrap: wrap;
+    display: flex;
     margin: 25px;
 }
 
@@ -87,6 +93,7 @@ a{
     height: 55vh;
     flex-wrap: wrap;
     position: relative;
+    flex: 1 1 0;
 }
 
 .contact{
@@ -99,7 +106,7 @@ a{
     font-size: 40px;
     background-color: #000000;
     color: #fff;
-    flex: 1 1 auto;
+    flex: 1 1 0;
     margin: 0 auto;
     flex-wrap: wrap;
     top: 400px;
@@ -111,7 +118,7 @@ a{
     background-color: #000000;
     color: #fff;
     position: absolute;
-    flex: 1 1 auto;
+    flex: 1 1 0;
     margin: 0 auto;
     top: 850px;
     left: 200px;
@@ -159,10 +166,14 @@ a{
     overflow: hidden;
   }
   
+  #headerback{
+    width: 100vw;
+  }
+  
   .card .cover-image {
     position: relative;
     z-index: -1;
-    filter: blur(8px);
+    filter: blur(5px);
     transition: filter 0.25s linear;
   }
   
