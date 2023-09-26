@@ -9,6 +9,7 @@ N/A
 
 ## Usage
 My Professional Portfolio
+![image](https://github.com/kboyd2002/Challenge-2/assets/145223393/13752829-c4cf-485f-9812-8f5f51a8e863)
 
 ## Credits
 https://developer.mozilla.org/en-US/docs/Learn/CSS
